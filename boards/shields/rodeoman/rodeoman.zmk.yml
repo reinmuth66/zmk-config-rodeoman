@@ -1,0 +1,11 @@
+file_format: "1"
+id: rodeoman
+name: rodeoman
+type: shield
+url: https://github.com/Reinmuth66/zmk-config-rodeoman/
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - rodeoman_left
+  - rodeoman_right

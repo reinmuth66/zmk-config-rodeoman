@@ -1,0 +1,28 @@
+if SHIELD_RODEOMAN_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "rodeoman"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_RODEOMAN_LEFT || SHIELD_RODEOMAN_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config SPI
+    default y
+
+config ZMK_POINTING
+    default y
+
+config AZ1UBALL
+    default y
+
+config I2C
+    default y
+
+endif
